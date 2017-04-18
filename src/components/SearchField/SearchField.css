@@ -1,0 +1,29 @@
+.search-field-root {
+    background-color: #90949D;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.search-field-root input {
+    flex-grow: 1;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    padding: 5px 10px;
+    color:  #CDD6DF;
+    width: calc( 100% - 20px );
+}
+
+.search-field-root .close-button {
+    padding: 5px;
+    background-color: #CDD6DF;
+    border-radius: 100px;
+    margin: 3px;
+}
+
+.search-field-root .close-button img {
+    width: 15px;
+    display: block;
+}
