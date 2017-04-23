@@ -7,10 +7,17 @@ class SearchResultsList extends Component {
 
         let {searchResultsList} = this.props
 
-        const renderItem = (item, index) => <SearchResultItem item={item} key={index} />
+        const renderItem = (item, index) => <SearchResultItem item={item} key={index} />;
     
+        const style = {
+            listStyle: 'none',
+            padding: 0,
+            width: "90%",
+            margin: "0 auto"
+        }
+
         return (
-            <ul>
+            <ul style={style}>
                 { searchResultsList.map(renderItem) }
             </ul>
             

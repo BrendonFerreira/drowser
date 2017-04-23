@@ -14,3 +14,18 @@
   justify-content: space-between;
 }
 
+.App-drag-area {
+  -webkit-app-region: drag;
+  background-color: #CDD6DF;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column
+}
+
+.App-drag-area .indicator {
+  background-color: white;
+  height: 10px;
+  width: 50px;
+  border-radius: 20px;
+}

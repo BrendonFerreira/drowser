@@ -7,8 +7,16 @@ class SearchResultItem extends Component {
     }
     render() {
         let {title,content, url} = this.props.item;
+        
+        const style = {
+            backgroundColor: '#90949D',
+            borderRadius: "3px",
+            margin: '2px',
+            padding: '5px 10px'
+        } 
+        
         return (
-            <li>
+            <li style={style}>
                 <a href={url}>
                     {title}
                     {content}
